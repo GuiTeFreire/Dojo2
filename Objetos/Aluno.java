@@ -45,10 +45,10 @@ public class Aluno {
 
     public String toString(){
         if (!provaFinal()){
-            return "Nome: " + nome + "\nMatricula: " + matricula + "\nIdade: " + idade + "\nProva 1: " + provas[0].getNota() + "\nProva 2: " + provas[1].getNota() + "\nMedia Final: " + calculaMedia();
+            return "\nNome: " + nome + "\nMatricula: " + matricula + "\nIdade: " + idade + "\nProva 1: " + provas[0].getNota() + "\nProva 2: " + provas[1].getNota() + "\nMedia Final: " + calculaMedia() + "\n";
         }
         else
-            return "Nome: " + nome + "\nMatricula: " + matricula + "\nIdade: " + idade + "\nProva 1: " + provas[0].getNota() + "\nProva 2: " + provas[1].getNota() + "\nProva Final: " + provas[2].getNota() + "\nMedia Final: " + calculaMedia();
+            return "\nNome: " + nome + "\nMatricula: " + matricula + "\nIdade: " + idade + "\nProva 1: " + provas[0].getNota() + "\nProva 2: " + provas[1].getNota() + "\nProva Final: " + provas[2].getNota() + "\nMedia Final: " + calculaMedia() + "\n";
     }
 
     public double calculaMedia(){
